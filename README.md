@@ -18,6 +18,7 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     │──src             # Código-fonte
     │── README.md      # Descrição específica do projeto
 │──LICENSE             # Licença do repositório (MIT)
+│──README.md           # Descrições gerais dos projetos
 ```
 
 ## 🔗 Projetos
