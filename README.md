@@ -1,23 +1,49 @@
-# Projetos de Sistemas Embarcados - EmbarcaTech 2025
+# PROJETOS DESENVOLVIDOS NO CURSO EMBARCATECH 2025 
 
-Autor: **(insira seu nome)**
+Autor: FELIPE LEME CORREA DA SILVA 
 
-Curso: Residência Tecnológica em Sistemas Embarcados
+Instituição: EmbarcaTech - HBr - Campinas
 
-Instituição: EmbarcaTech - HBr
+## SOBRE O REPOSITÓRIO: 
 
-Campinas, março de 2025
+AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDOS DURANTE O PROCESSO DE APRENDIZAGEM NO CURSO DE RESIDÊNCIA TECNOLÓGICA EM SISTEMAS EMBARCADOS.
 
----
+## 📂 Lista de Projetos
 
-## Sobre este repositório
+```
+/projetos
+│──projeto1
+    │──assets          # Imagens, vídeos, esquemas
+    │──docs            # Documentação técnica complementar
+    │──src             # Código-fonte
+    │── README.md      # Descrição específica do projeto
+│──LICENSE             # Licença do repositório (MIT)
+```
 
-Este repositório reúne os projetos desenvolvidos ao longo do curso de Sistemas Embarcados, durante a etapa de residência.  
+## 🔗 Projetos
+Abaixo está a lista de projetos desenvolvidos. Cada um possui um diretório específico dentro do repositório:
 
-Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e recursos visuais.
+- [Projeto 1 - Audiometria - Primeira Fase](./projetos/audiometria_primeira_fase/)
+- [Projeto 2 - Nome do Projeto](./projetos/projeto2/)
+- [Projeto 3 - Nome do Projeto](./projetos/projeto3/)
 
----
+## 🖼️ Setup do Hardware
+Sugestão: incluir aqui uma **foto geral do kit** ou do **setup utilizado** nos projetos. Isso pode ajudar na reprodução dos experimentos.
 
-## O que fazer com este arquivo
+## 🛠️ Requisitos e Configuração
+Para compilar e rodar os projetos no **Raspberry Pi Pico W**, siga os passos abaixo:
 
-Ao fazer o *fork* do repositório, o aluno está livre para modificar este arquivo como quiser dentro do seu próprio *fork*.
+1. **Instale o SDK do Pico** seguindo as instruções oficiais da Raspberry Pi.
+2. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu_usuario/seu_repositorio.git
+   cd meu_projeto
+   ```
+3. **Crie o diretório de build e compile:**
+   ```bash
+   mkdir build
+   cd build
+   cmake ..
+   make
+   ```
+4. **Carregue o firmware no Raspberry Pi Pico W.**
