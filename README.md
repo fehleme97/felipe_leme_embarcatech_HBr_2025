@@ -12,7 +12,7 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
 
 ```
 /projetos
-│──projeto1
+│──audiometria_primeira_fase
     │──assets          # Imagens, vídeos, esquemas
     │──docs            # Documentação técnica complementar
     │──src             # Código-fonte
