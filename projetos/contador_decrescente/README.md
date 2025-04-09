@@ -1,6 +1,8 @@
 ## PROJETO 1
 
-# Projeto de Audiometria - Primeira Fase - Embarcatech
+**EXEMPLO DE PREENCHIMENTO**
+
+# Projeto contador decrescente por interrupção 
 Este projeto implementa uma versão digital do teste de audiometria, que visa diagnosticar pessoas com deficiências auditivas em determinadas frequências e intensidade.
 
 ## Objetivo
