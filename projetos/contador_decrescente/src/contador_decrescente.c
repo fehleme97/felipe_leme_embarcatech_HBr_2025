@@ -2,7 +2,7 @@
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include "pico/time.h"
-#include "ssd1306.h"
+#include "inc/ssd1306.h"
 #include "font.h"
 
 #define BUTTON_A_PIN 5
