@@ -1,14 +1,12 @@
-## PROJETO 1
+## PROJETO 2
 
-# Projeto de Audiometria - Primeira Fase - Embarcatech
-Este projeto implementa uma versão digital do teste de audiometria, que visa diagnosticar pessoas com deficiências auditivas em determinadas frequências e intensidade.
+# Projeto de contador decrescente - Segunda Fase - Embarcatech
+Este projeto implementa um contador de tempo decrescente que vai de 9 a 0, e a cada vez que o botão A é pressionado a contagem zera. Além de que, ao aperta o botão B é incrementando quantas vezes o mesmo foi pressionado na contagem de 9 a 0. Após finalizar a contagem, o processo é congelado e imprimir na tela a quantidade de vezes o botão B foi pressionado. 
 
 ## Objetivo
-Criar um sistema para triagem de pessoas com deficiência auditiva através de:
+Fazer um contador de tempo decrescente e que imprima quantas vezes o botão B foi pressionado ao longo do tempo, com:
 - Display OLED;
-- Botões para interação do usuário com os sinais sonoros gerados;
-- Buzzers para gerar tons e intensidades aleatórias entre 250 a 8kHz;
-- Led RGB para feedback visual; 
+- Botões para interação do usuário; 
 
 ##  Lista de materiais: 
 
@@ -16,11 +14,8 @@ Criar um sistema para triagem de pessoas com deficiência auditiva através de:
 |----------------------|----------------------|
 | BitDogLab (RP2040)   | -                    |
 | Display OLED I2C     | SDA: GPIO14 / SCL: GPIO15 |
-| LED_RAGB             | GPIO11 / GPIO13      |
-| SW2                  | GP07                 |
-| SW3                  | GP09                 |
-| BZ1                  | GP21                 |
-| BZ1                  | GP14                 |
+| SW2                  | GP05                 |
+| SW3                  | GP06                 |
 
 
 Execução
@@ -46,44 +41,25 @@ O teste de audiometria será iniciado e apresentará as instruções ao usuário
 - Inicialização:  
 
 • O sistema inicia com uma mensagem no display OLED instruindo o usuário a 
-pressionar os botões A e B para começar o teste. 
+pressionar o botão A para começar o contador. 
 
-• Após o início, o sistema exibe uma mensagem indicando que o teste começará 
-em 4 segundos. 
+• Após o início, o sistema exibe uma mensagem indicando que o contado iniciou a contagem e imprimir o tempo a cada 1s. 
 
 - Execução do Teste: 
 
-• O teste consiste em 10 rodadas, onde em cada rodada: 
-Uma frequência aleatória (250 Hz, 500 Hz, 1000 Hz, 2000 Hz, 4000 Hz, ou 8000 
-Hz) e uma intensidade aleatória (10%, 30%, 50%, 70%, ou 90%) são selecionadas. 
+• Ao longo da contagem o usuário tem a opção de optar por reiniciar o contador através do botão A 
+ou pressionar o botão B, para incrementar a quantidade de vezes que durante a contagem o botão
+foi pressionado.  
 
-• O som é emitido por um dos buzzers (A ou B), escolhido aleatoriamente. 
-
-• O usuário deve pressionar o botão correspondente ao buzzer que está emitindo 
-o som. 
-
-• Se a resposta estiver correta, o LED verde acende. Caso contrário, o LED 
-vermelho acende e o erro é registrado. 
-
-- Finalização do Teste: 
-
-• Após as 10 rodadas, o sistema exibe no display OLED o número de acertos e 
-erros. 
-
-• Os erros são detalhados no Serial Monitor, mostrando a frequência, 
-intensidade e o buzzer correspondente a cada erro. 
-
-• O usuário pode optar por reiniciar o teste (pressionando o botão A duas vezes) 
-ou sair do programa (pressionando o botão B duas vezes).
+• Após o término da contagem, o programa congela as interações e imprimir a quantidade de vezes
+que o botão B foi pressionado e posteriormente, da a opção do usuário reiniciar o contador
+através do botão A. 
 
 ##  Arquivos
-- `src/BitDogLab_Audiometria.c`: Código principal do projeto
-- `docs/U7T_ FLCdS.pdf`: Documentação
+- `projetos/contador_decrescente/contador_decrescente.c`: Código principal do projeto
+- `projetos/contador_decrescente/CMakeLists.txt`: Arquivo CMake que contém as diretrizes do projeto e as bibliotecas utilizadas. 
 - `projetos/LICENSE.txt`: Licença de distribuição. 
 
-## 🖼️ Imagens do Projeto
-### Matriz de LEDs durante execução
-![BitDogLab_led](./assets/BitDogLab_led.jpg)
 
 ---
 ## 📜 Licença
