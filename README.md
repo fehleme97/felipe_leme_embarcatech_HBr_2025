@@ -37,8 +37,6 @@ Abaixo está a lista de projetos desenvolvidos. Cada um possui um diretório esp
 - [Projeto 2 - Contador Decrescente](./projetos/contador_decrescente/)
 - [Projeto 3 - Nome do Projeto](./projetos/projeto3/)
 
-## 🖼️ Setup do Hardware
-Sugestão: incluir aqui uma **foto geral do kit** ou do **setup utilizado** nos projetos. Isso pode ajudar na reprodução dos experimentos.
 
 ## 🛠️ Requisitos e Configuração
 Para compilar e rodar os projetos no **Raspberry Pi Pico W**, siga os passos abaixo:
