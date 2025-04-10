@@ -18,7 +18,14 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     │──inc             # Bibliotecas do projeto
     │── README.md      # Descrição específica do projeto
     │── BitDogLab_Audiometria.c     # Código fonte.
-    │── CMakeLists     # CMakeLists do projeto.  
+    │── CMakeLists     # CMakeLists do projeto.
+│──contador_decrescente
+    │──assets          # Imagens, vídeos, esquemas
+    │──docs            # Documentação técnica complementar
+    │──inc             # Bibliotecas do projeto
+    │── README.md      # Descrição específica do projeto
+    │── contador_decrescente.c     # Código fonte.
+    │── CMakeLists     # CMakeLists do projeto. 
 │──LICENSE             # Licença do repositório (MIT)
 │──README.md           # Descrições gerais dos projetos
 ```
@@ -27,7 +34,7 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
 Abaixo está a lista de projetos desenvolvidos. Cada um possui um diretório específico dentro do repositório:
 
 - [Projeto 1 - Audiometria - Primeira Fase](./projetos/audiometria_primeira_fase/)
-- [Projeto 2 - Nome do Projeto](./projetos/projeto2/)
+- [Projeto 2 - Contador Decrescente](./projetos/contador_decrescente/)
 - [Projeto 3 - Nome do Projeto](./projetos/projeto3/)
 
 ## 🖼️ Setup do Hardware
