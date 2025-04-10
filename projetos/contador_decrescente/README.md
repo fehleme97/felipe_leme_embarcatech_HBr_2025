@@ -34,7 +34,7 @@ Copie o arquivo .uf2 gerado para a unidade de armazenamento que aparece (RPI-RP2
 A Pico reiniciará automaticamente e começará a executar o código.
 
 
-O teste de audiometria será iniciado e apresentará as instruções ao usuário no display OLED.
+As instruções ao usuário serão impressas no display OLED e posterior o contador irá começar.
 
 ## Lógica
 
