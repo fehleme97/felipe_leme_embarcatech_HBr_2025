@@ -15,8 +15,10 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
 │──audiometria_primeira_fase
     │──assets          # Imagens, vídeos, esquemas
     │──docs            # Documentação técnica complementar
-    │──src             # Código-fonte
+    │──inc             # Bibliotecas do projeto
     │── README.md      # Descrição específica do projeto
+    │── BitDogLab_Audiometria.c     # Código fonte.
+    │── CMakeLists     # CMakeLists do projeto.  
 │──LICENSE             # Licença do repositório (MIT)
 │──README.md           # Descrições gerais dos projetos
 ```

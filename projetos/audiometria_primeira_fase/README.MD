@@ -17,7 +17,7 @@ Criar um sistema para triagem de pessoas com deficiência auditiva através de:
 | BitDogLab (RP2040)   | -                    |
 | Display OLED I2C     | SDA: GPIO14 / SCL: GPIO15 |
 | LED_RAGB             | GPIO11 / GPIO13      |
-| SW2                  | GP07                 |
+| SW2                  | GP07                 | 
 | SW3                  | GP09                 |
 | BZ1                  | GP21                 |
 | BZ1                  | GP14                 |

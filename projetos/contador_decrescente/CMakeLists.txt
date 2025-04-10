@@ -58,10 +58,9 @@ target_sources(contador_decrescente PRIVATE
 target_link_libraries(contador_decrescente
     pico_stdlib
     hardware_i2c
-    hardware_clocks
-    hardware_pwm
     hardware_gpio
     hardware_adc
+    hardware_clocks
 )
 
 # Add the standard include files to the build
