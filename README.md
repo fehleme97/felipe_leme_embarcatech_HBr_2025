@@ -26,6 +26,13 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     │── README.md      # Descrição específica do projeto
     │── contador_decrescente.c     # Código fonte.
     │── CMakeLists     # CMakeLists do projeto. 
+│──Bitdoglab_joystick
+    │──assets          # Imagens, vídeos, esquemas
+    │──docs            # Documentação técnica complementar
+    │──inc             # Bibliotecas do projeto
+    │── README.md      # Descrição específica do projeto
+    │── Bitdoglab_joystick.c     # Código fonte.
+    │── CMakeLists     # CMakeLists do projeto. 
 │──LICENSE             # Licença do repositório (MIT)
 │──README.md           # Descrições gerais dos projetos
 ```
@@ -35,7 +42,7 @@ Abaixo está a lista de projetos desenvolvidos. Cada um possui um diretório esp
 
 - [Projeto 1 - Audiometria - Primeira Fase](./projetos/audiometria_primeira_fase/)
 - [Projeto 2 - Contador Decrescente](./projetos/contador_decrescente/)
-- [Projeto 3 - Nome do Projeto](./projetos/projeto3/)
+- [Projeto 3 - Leitura do Joystick](./projetos/Bitdoglab_joystick/)
 
 
 ## 🛠️ Requisitos e Configuração
