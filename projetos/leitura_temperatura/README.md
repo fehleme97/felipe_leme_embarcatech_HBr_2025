@@ -1,6 +1,6 @@
 ## PROJETO 4
 
-# Leitura do Sensor de Temperatura interno do RP2040 - Segunda Fase - Embarcatech
+# Sensor de Temperatura interno do RP2040 - Segunda Fase - Embarcatech
 Este projeto implementa um sensor de temperatura para verificação da leitura em tempo real do microcontrolador RP2040. Além de converter para Celsius o valor lido.
 
 ## Objetivo
