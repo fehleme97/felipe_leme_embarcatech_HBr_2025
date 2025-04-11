@@ -43,7 +43,7 @@ As instruções ao usuário serão impressas no display OLED e posterior o conta
 • O sistema inicia com uma mensagem no display OLED instruindo o usuário a 
 pressionar o botão A para começar o contador. 
 
-• Após o início, o sistema exibe uma mensagem indicando que o contado iniciou a contagem e imprimir o tempo a cada 1s. 
+• Após o início, o sistema exibe uma mensagem indicando que o contador iniciou a contagem e imprimir o tempo a cada 1s. 
 
 - Execução do Teste: 
 
