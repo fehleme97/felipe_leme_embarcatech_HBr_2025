@@ -105,7 +105,7 @@ int main() {
             ssd1306_draw_string(ssd, 0, 32, texto);
             render_on_display(ssd, &frame_area);
         
-            printf("\nContador iniciado: 9\n");
+          // printf("\nContador iniciado: 9\n"); // TESTE NO SERIAL MONITOR PARA INICIO DA CONTAGEM.
         }
 
         // Lógica botão B (só ativa se estiver contando)
