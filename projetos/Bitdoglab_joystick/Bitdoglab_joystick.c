@@ -35,13 +35,13 @@ int main() {
     calculate_render_area_buffer_length(&frame_area);
 
     ssd1306_draw_string(ssd, 0, 16, "MOVIMENTOS X E Y ");
-    ssd1306_draw_string(ssd, 0, 32, "  DO JOYSTICK ");
+    ssd1306_draw_string(ssd, 0, 32, "  DO JOYSTICKR ");
     render_on_display(ssd, &frame_area);
     sleep_ms(4000);
 
     memset(ssd, 0, ssd1306_buffer_length);
     ssd1306_draw_string(ssd, 0, 16, "   MANIPULE O ");
-    ssd1306_draw_string(ssd, 0, 32, "    JOYSTICK ");
+    ssd1306_draw_string(ssd, 0, 32, "    JOYSTICKR ");
     render_on_display(ssd, &frame_area);
     sleep_ms(2000);
 
