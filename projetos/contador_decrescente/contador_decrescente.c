@@ -71,12 +71,12 @@ int main() {
         bool current_button_a = gpio_get(BUTTON_A_PIN);
         if (!current_button_a && last_button_a) {
             // Debounce botão A
-            if (absolute_time_diff_us(last_a_press, get_absolute_time()) > DEBOUNCE_DELAY_MS * 1000) {
-                button_a_flag = true;
-                last_a_press = get_absolute_time();
+            if (absolute_time_diff_us(last_a_press, get_absolute_time()) > DEBOUNCE_DELAY_MS * 1000) { // Só permiti que o botão seja pressionado novamente após o debounce em microsegundos. Compara os dois ultimos estados e evita o bounce.
+                button_a_flag = true; // flag para validação do botão pressionado junto com o debounce. 
+                last_a_press = get_absolute_time(); // impede que o botão seja considerado pressionado novamente antes do tempo de debounce.
             }
         }
-        last_button_a = current_button_a;
+        last_button_a = current_button_a; // ao final de cada ciclo, para que no próximo loop, ele tenha a referência correta do estado anterior.
 
         // Detecta borda de descida botão B
         static bool last_button_b = true;
@@ -105,7 +105,7 @@ int main() {
             ssd1306_draw_string(ssd, 0, 32, texto);
             render_on_display(ssd, &frame_area);
         
-          // printf("\nContador iniciado: 9\n"); // TESTE NO SERIAL MONITOR PARA INICIO DA CONTAGEM.
+            printf("\nContador iniciado: 9\n");
         }
 
         // Lógica botão B (só ativa se estiver contando)
@@ -120,11 +120,11 @@ int main() {
 
         // Contagem regressiva
         if (counting) {
-            absolute_time_t now = get_absolute_time();
-            if (absolute_time_diff_us(last_time, now) >= 1000000) {
+            absolute_time_t now = get_absolute_time(); // tempo atual em relação aos microsegundos desde o boot.
+            if (absolute_time_diff_us(last_time, now) >= 1000000) { // cria um delay de 1 segundos (1000000 microsegundos) sem interferir no resto do código.
                 last_time = now;
                 if (counter > 0) {
-                    counter--;
+                    counter--; // decrementador 
         
                     memset(ssd, 0, ssd1306_buffer_length);
                     snprintf(texto, sizeof(texto), "Contando = %d", counter);
