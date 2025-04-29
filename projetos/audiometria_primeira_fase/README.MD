@@ -1,4 +1,4 @@
-## PROJETO 1
+##  Audiometria - Primeira Fase
 
 # Projeto de Audiometria - Primeira Fase - Embarcatech
 Este projeto implementa uma versão digital do teste de audiometria, que visa diagnosticar pessoas com deficiências auditivas em determinadas frequências e intensidade.
