@@ -1,16 +1,16 @@
-## Leitura do Sensor de Temperatura
+# Leitura do Sensor de Temperatura
 
-# Sensor de Temperatura do RP2040 - Segunda Fase - Embarcatech
+## 📝 Sensor de Temperatura do RP2040 - Segunda Fase - Embarcatech
 Este projeto implementa um sensor de temperatura para verificação da leitura em tempo real do microcontrolador RP2040. Além de converter para Celsius o valor lido.
 
-## Objetivo
+## 🎯 Objetivo
 Fazer um leitor da temperatura do microcontrolador RP2040 para leitura em tempo real em Celsius, com:
 - Display OLED;
 - BitDogLab;
 - Sensor de Temperatura. 
 
 
-##  Lista de materiais: 
+## 🛠️ Lista de materiais: 
 
 | Componente           | Conexão na BitDogLab |
 |----------------------|----------------------|
@@ -19,7 +19,7 @@ Fazer um leitor da temperatura do microcontrolador RP2040 para leitura em tempo 
 | Sensor de Temperatura   | GPIO04                    |
 
 
-Execução
+## 🖥️ Execução
 Abra o projeto no VS Code, usando o ambiente com suporte ao SDK do Raspberry Pi Pico (CMake + compilador ARM).
 
 
@@ -37,7 +37,7 @@ A Pico reiniciará automaticamente e começará a executar o código.
 
 As instruções ao usuário serão impressas no display OLED e posterior o contador irá começar.
 
-## Lógica
+## 🚀 Lógica
 
 - Inicialização:  
 
