@@ -1,4 +1,4 @@
-## PROJETO 5
+## Pisca Led - Arquitetura Modular
 
 # Blink - Arquitetura modular
 Este projeto faz com que o LED embutido da Raspberry Pi Pico W pisque com período de 1 segundo. Sendo introdutório para programações estruturadas com arquitetura modular, conforme sugerido em atividade. 
