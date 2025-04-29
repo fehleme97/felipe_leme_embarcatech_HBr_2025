@@ -42,14 +42,9 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     │── CMakeLists     # CMakeLists do projeto.
 │──pisca_led
     │──app
-       │──led_pisca.c
-    │──drivers
-        │──led_embutido.c        
+    │──drivers       
     │──hal
-        │──hal_led.c
-    │──include
-        │──led_embutido.h         
-        │──hal_led.h           
+    │──include      
     │──CMakeLists     # CMakeLists do projeto.
     │──README.md           # Descrições gerais dos projetos
 │──LICENSE             # Licença do repositório (MIT)
