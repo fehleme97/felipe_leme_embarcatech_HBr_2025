@@ -1,14 +1,14 @@
-## Contador Decrescente
+# Contador Decrescente
 
-# Projeto de contador decrescente - Segunda Fase - Embarcatech
+## 📝 Projeto de contador decrescente - Segunda Fase - Embarcatech
 Este projeto implementa um contador de tempo decrescente que vai de 9 a 0, e a cada vez que o botão A é pressionado a contagem zera. Além de que, ao aperta o botão B é incrementando quantas vezes o mesmo foi pressionado na contagem de 9 a 0. Após finalizar a contagem, o processo é congelado e imprimir na tela a quantidade de vezes o botão B foi pressionado. 
 
-## Objetivo
+## 🎯 Objetivo
 Fazer um contador de tempo decrescente e que imprima quantas vezes o botão B foi pressionado ao longo do tempo, com:
 - Display OLED;
 - Botões para interação do usuário; 
 
-##  Lista de materiais: 
+## 🛠️ Lista de materiais: 
 
 | Componente           | Conexão na BitDogLab |
 |----------------------|----------------------|
@@ -18,7 +18,7 @@ Fazer um contador de tempo decrescente e que imprima quantas vezes o botão B fo
 | SW3                  | GP06                 |
 
 
-Execução
+## 🖥️ Execução
 Abra o projeto no VS Code, usando o ambiente com suporte ao SDK do Raspberry Pi Pico (CMake + compilador ARM).
 
 
@@ -36,7 +36,7 @@ A Pico reiniciará automaticamente e começará a executar o código.
 
 As instruções ao usuário serão impressas no display OLED e posterior o contador irá começar.
 
-## Lógica
+## 🚀 Lógica
 
 - Inicialização:  
 
