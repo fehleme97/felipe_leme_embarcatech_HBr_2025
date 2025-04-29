@@ -7,20 +7,18 @@ Este projeto faz com que o LED embutido da Raspberry Pi Pico W pisque com perío
 Este projeto demonstra como organizar o código para o Raspberry Pi Pico W de forma modular, separando **drivers**, **HAL** (Hardware Abstraction Layer) e **aplicação**.
 
 ## Estrutura do Projeto 📂
-
-├── pisca_led/ 
- 	├── app/  
-		└── main.c 
-	├── drivers/ 
-		└── led_embutido.c 
-	├── hal/ 
-		└── hal_led.c 
-	├── include/ 
-		└── led_embutido.h 
-		└── hal_led.h 
-	├── CMakeLists.txt 
-	├── pico_sdk_import.cmake 
-	├── README.md 
+/pisca_led
+│── app
+   │── led_pisca.c
+│── drivers
+    │── led_embutido.c        
+│── hal
+    │── hal_led.c
+│──include
+    │── led_embutido.h         
+    │── hal_led.h           
+│── CMakeLists     # CMakeLists do projeto.
+│──README.md           # Descrições gerais dos projetos
 
 
 ## Requisitos
