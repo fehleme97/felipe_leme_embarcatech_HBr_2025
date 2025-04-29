@@ -1,9 +1,9 @@
 ## Pisca Led - Arquitetura Modular
 
-# Blink - Arquitetura modular
+# 📝 Blink - Arquitetura modular
 Este projeto faz com que o LED embutido da Raspberry Pi Pico W pisque com período de 1 segundo. Sendo introdutório para programações estruturadas com arquitetura modular, conforme sugerido em atividade. 
 
-## Objetivo
+## 🎯 Objetivo
 Este projeto demonstra como organizar o código para o Raspberry Pi Pico W de forma modular, separando **drivers**, **HAL** (Hardware Abstraction Layer) e **aplicação**.
 
 ## Estrutura do Projeto 📂
@@ -22,7 +22,7 @@ Este projeto demonstra como organizar o código para o Raspberry Pi Pico W de fo
 ├──README.md           # Descrições gerais dos projetos
 ```
 
-## Requisitos
+## 🖥️ Requisitos
 
 - Raspberry Pi Pico W
 - CMake >= 3.13
@@ -30,7 +30,7 @@ Este projeto demonstra como organizar o código para o Raspberry Pi Pico W de fo
 - `ninja` (opcional, mas recomendado para build rápido)
 - SDK da Raspberry Pi Pico
 
-## Como clonar o SDK
+## 🖥️ Como clonar o SDK
 
 Antes de compilar, clone o pico-sdk:
 
