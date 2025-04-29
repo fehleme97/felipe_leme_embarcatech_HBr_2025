@@ -1,4 +1,4 @@
-## PROJETO 2
+## Contador Decrescente
 
 # Projeto de contador decrescente - Segunda Fase - Embarcatech
 Este projeto implementa um contador de tempo decrescente que vai de 9 a 0, e a cada vez que o botão A é pressionado a contagem zera. Além de que, ao aperta o botão B é incrementando quantas vezes o mesmo foi pressionado na contagem de 9 a 0. Após finalizar a contagem, o processo é congelado e imprimir na tela a quantidade de vezes o botão B foi pressionado. 
