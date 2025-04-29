@@ -10,7 +10,7 @@ Este projeto demonstra como organizar o código para o Raspberry Pi Pico W de fo
 /pisca_led
 │──app
    │──led_pisca.c
-│── drivers
+│──drivers
     │──led_embutido.c        
 │──hal
     │──hal_led.c
