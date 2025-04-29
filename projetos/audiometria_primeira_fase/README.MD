@@ -1,16 +1,16 @@
-##  Audiometria - Primeira Fase
+#  Audiometria - Primeira Fase
 
-# Projeto de Audiometria - Primeira Fase - Embarcatech
+## 📝 Projeto de Audiometria - Primeira Fase - Embarcatech
 Este projeto implementa uma versão digital do teste de audiometria, que visa diagnosticar pessoas com deficiências auditivas em determinadas frequências e intensidade.
 
-## Objetivo
+## 🎯 Objetivo
 Criar um sistema para triagem de pessoas com deficiência auditiva através de:
 - Display OLED;
 - Botões para interação do usuário com os sinais sonoros gerados;
 - Buzzers para gerar tons e intensidades aleatórias entre 250 a 8kHz;
 - Led RGB para feedback visual; 
 
-##  Lista de materiais: 
+## 🛠️ Lista de materiais: 
 
 | Componente           | Conexão na BitDogLab |
 |----------------------|----------------------|
@@ -23,7 +23,7 @@ Criar um sistema para triagem de pessoas com deficiência auditiva através de:
 | BZ1                  | GP14                 |
 
 
-Execução
+## 🖥️ Execução
 Abra o projeto no VS Code, usando o ambiente com suporte ao SDK do Raspberry Pi Pico (CMake + compilador ARM).
 
 
@@ -41,7 +41,7 @@ A Pico reiniciará automaticamente e começará a executar o código.
 
 O teste de audiometria será iniciado e apresentará as instruções ao usuário no display OLED.
 
-## Lógica
+## 🚀 Lógica
 
 - Inicialização:  
 
