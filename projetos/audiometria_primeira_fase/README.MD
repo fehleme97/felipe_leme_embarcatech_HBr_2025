@@ -83,7 +83,7 @@ ou sair do programa (pressionando o botão B duas vezes).
 
 ## 🖼️ Imagens do Projeto
 ### Matriz de LEDs durante execução
-![BitDogLab_led](./assets/BitDogLab_led.jpg)
+![BitDogLab_led](./audiometria_primeira_fase/assets/BitDogLab_led.png)
 
 ---
 ## 📜 Licença
