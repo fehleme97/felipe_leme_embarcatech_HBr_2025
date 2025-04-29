@@ -8,16 +8,16 @@ Este projeto demonstra como organizar o código para o Raspberry Pi Pico W de fo
 
 ## Estrutura do Projeto 📂
 /pisca_led
-│── app
-   │── led_pisca.c
+│──app
+   │──led_pisca.c
 │── drivers
-    │── led_embutido.c        
-│── hal
-    │── hal_led.c
+    │──led_embutido.c        
+│──hal
+    │──hal_led.c
 │──include
-    │── led_embutido.h         
-    │── hal_led.h           
-│── CMakeLists     # CMakeLists do projeto.
+    │──led_embutido.h         
+    │──hal_led.h           
+│──CMakeLists     # CMakeLists do projeto.
 │──README.md           # Descrições gerais dos projetos
 
 
