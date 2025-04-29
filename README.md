@@ -45,10 +45,10 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     │──drivers       
     │──hal
     │──include      
-    │──CMakeLists     # CMakeLists do projeto.
-    │──README.md           # Descrições gerais dos projetos
-│──LICENSE             # Licença do repositório (MIT)
-│──README.md           # Descrições gerais dos projetos
+    │──CMakeLists       # CMakeLists do projeto.
+    │──README.md        # Descrições gerais dos projetos
+│──LICENSE              # Licença do repositório (MIT)
+│──README.md            # Descrições gerais dos projetos
 ```
 
 ## 🔗 Projetos
