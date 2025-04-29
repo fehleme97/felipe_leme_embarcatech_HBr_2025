@@ -1,4 +1,4 @@
-## PROJETO 3
+## Leitura do Joystick
 
 # Projeto de leitura em tempo real do Joystick - Segunda Fase - Embarcatech
 Este projeto implementar a leitura do controle joystick através de um DISPLAY OLED para visualização em tempo real da movimentação feita.  
