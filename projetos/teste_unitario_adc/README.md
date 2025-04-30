@@ -17,6 +17,10 @@ Através da fórmula: V= (ADC×3.3)/4095 => ADC = (0.706x4095)/3.3 => ADC = 876
 
 Aplicamos a função float temperature = adc_to_celsius(adc_val) e comparamos com o valor esperado (27ºC), com uma margem de erro através da função: TEST_ASSERT_FLOAT_WITHIN(0.5, 27.0, temperature);
 
+Assim, obtemos através do Serial Monitor o resultado do teste:
+
+![image](https://github.com/user-attachments/assets/4138e5cd-5873-4328-9a98-7bbec100d1ca)
+
 ## Estrutura do Projeto 📂
 ```
 /teste_unitario_adc
