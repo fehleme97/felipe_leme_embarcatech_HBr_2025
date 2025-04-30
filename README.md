@@ -47,8 +47,14 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     │──include      
     │──CMakeLists       # CMakeLists do projeto.
     │──README.md        # Descrições gerais dos projetos
-│──LICENSE              # Licença do repositório (MIT)
-│──README.md            # Descrições gerais dos projetos
+│──teste_unitario_adc
+    ├──module_a                     # Funções reutilizáveis
+    ├──test                         # Testes unitários com Unity.        
+    ├──teste_unitario_adc           # Leitura do sensor de temperatura embutido em tempo real.
+    ├──Unity                        # Biblioteca responsável pelo teste unitário.
+    ├──CMakeLists                   # CMakeLists do projeto.
+    ├──README.md                    # Descrições gerais dos projetos
+    │──README.md            # Descrições gerais dos projetos
 ```
 
 ## 🔗 Projetos
@@ -59,6 +65,7 @@ Abaixo está a lista de projetos desenvolvidos. Cada um possui um diretório esp
 - [Projeto 3 - Leitura do Joystick](./projetos/Bitdoglab_joystick/)
 - [Projeto 4 - Leitura do Sensor de Temperatura](./projetos/leitura_temperatura/)
 - [Projeto 5 - Pisca Led - Arquitetura Modular](./projetos/led_pisca/)
+- [Projeto 6 - Teste unitário - Sensor embutido de temperatura - Arquitetura Modular](./projetos/teste_unitario_adc)
 
 
 ## 🛠️ Requisitos e Configuração
