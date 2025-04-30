@@ -11,6 +11,12 @@ O programa é feito em duas repartições, sendo elas podendo ser habilitada ou 
 ## 🎯 Objetivo
 Este projeto demonstrar a temperatura em tempo real do processador RP2040, através de um sensor térmico embutido na própria placa da Raspberry Pi Pico W. Assim como também possibilita o usuário de realizar teste unitário do canal de conversão ADC de tensão em temperatura para validação. 
 
+A validação consiste em simular o valor de ADC que corresponder a ~27ºC;
+
+Através da fórmula: V= (ADC×3.3)/4095 => ADC = (0.706x4095)/3.3 => ADC = 876
+
+Aplicamos a função float temperature = adc_to_celsius(adc_val) e comparamos com o valor esperado (27ºC), com uma margem de erro através da função: TEST_ASSERT_FLOAT_WITHIN(0.5, 27.0, temperature);
+
 ## Estrutura do Projeto 📂
 ```
 /teste_unitario_adc
