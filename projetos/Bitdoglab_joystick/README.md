@@ -1,14 +1,14 @@
-## PROJETO 3
+# Leitura do Joystick
 
-# Projeto de leitura em tempo real do Joystick - Segunda Fase - Embarcatech
+## 📝 Projeto de leitura em tempo real do Joystick - Segunda Fase - Embarcatech
 Este projeto implementar a leitura do controle joystick através de um DISPLAY OLED para visualização em tempo real da movimentação feita.  
 
-## Objetivo
+## 🎯 Objetivo
 Fazer um leitor de movimento do joystick, com:
 - Display OLED;
 - Joystick; 
 
-##  Lista de materiais: 
+## 🛠️ Lista de materiais: 
 
 | Componente           | Conexão na BitDogLab |
 |----------------------|----------------------|
@@ -17,7 +17,7 @@ Fazer um leitor de movimento do joystick, com:
 | JOYSTICK             | GPIO22                 |
 
 
-Execução
+## 🖥️ Execução
 Abra o projeto no VS Code, usando o ambiente com suporte ao SDK do Raspberry Pi Pico (CMake + compilador ARM).
 
 
@@ -35,7 +35,7 @@ A Pico reiniciará automaticamente e começará a executar o código.
 
 As instruções ao usuário serão impressas no display OLED.
 
-## Lógica
+## 🚀 Lógica
 
 - Inicialização:  
 
