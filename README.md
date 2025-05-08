@@ -55,6 +55,11 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     ├──CMakeLists                   # CMakeLists do projeto.
     ├──README.md                    # Descrições gerais dos projetos
     │──README.md            # Descrições gerais dos projetos
+│──galton_board
+    ├──inc                     # Bibliotecas do projeto.
+    ├──galton_board            # Código fonte.
+    ├──CMakeLists              # CMakeLists do projeto.
+    │──README.md               # Descrições gerais dos projetos
 ```
 
 ## 🔗 Projetos
@@ -66,6 +71,7 @@ Abaixo está a lista de projetos desenvolvidos. Cada um possui um diretório esp
 - [Projeto 4 - Leitura do Sensor de Temperatura](./projetos/leitura_temperatura/)
 - [Projeto 5 - Pisca Led - Arquitetura Modular](./projetos/led_pisca/)
 - [Projeto 6 - Teste unitário - Sensor embutido de temperatura - Arquitetura Modular](./projetos/teste_unitario_adc)
+- [Projeto 7 - Galton Board](./projetos/galton_board)
 
 
 ## 🛠️ Requisitos e Configuração
