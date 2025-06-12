@@ -8,7 +8,7 @@
 #include "lwip/apps/mqtt.h"
 
 #define TOPIC "escola/sala1/temperatura"
-#define MQTT_BROKER "192.168.15.54"
+#define MQTT_BROKER "XXX.XXX.XX.XX" // IP DO BROKER HOSPEDANDO
 #define XOR_KEY 42
 
 static mqtt_client_t *client;
@@ -79,9 +79,9 @@ static void mqtt_connection_cb(mqtt_client_t *client, void *arg, mqtt_connection
 void configure_static_ip(struct netif *netif) {
     ip4_addr_t ipaddr, netmask, gw;
 
-    IP4_ADDR(&ipaddr, 192, 168, 15, 101);  // IP diferente do Publisher
-    IP4_ADDR(&gw, 192, 168, 15, 1);
-    IP4_ADDR(&netmask, 255, 255, 255, 0);
+    IP4_ADDR(&ipaddr, XXX, XXX, XX, XXX);  // IP diferente do Publisher
+    IP4_ADDR(&gw, XXX, XXX, XX, X; // Gateway
+    IP4_ADDR(&netmask, XXX, XXX, XXX, X); //Submascara
 
     netif_set_addr(netif, &ipaddr, &netmask, &gw);
     printf("IP fixo configurado: %s\n", ip4addr_ntoa(&ipaddr));
@@ -117,8 +117,8 @@ int main() {
     stdio_init_all();
     sleep_ms(2000);
 
-    const char *ssid = "Fezao";
-    const char *password = "45954541";
+    const char *ssid = ""; // Login da rede
+    const char *password = ""; // Senha da rede
 
     connect_to_wifi(ssid, password);
 

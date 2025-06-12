@@ -20,9 +20,9 @@ void xor_encrypt(const uint8_t *input, uint8_t *output, size_t len, uint8_t key)
 void configure_static_ip(struct netif *netif) {
     ip4_addr_t ipaddr, netmask, gw;
 
-    IP4_ADDR(&ipaddr, 192, 168, 15, 100);
-    IP4_ADDR(&gw, 192, 168, 15, 1);
-    IP4_ADDR(&netmask, 255, 255, 255, 0);
+    IP4_ADDR(&ipaddr, XXX, XXX, XX, XXX); //IPV4
+    IP4_ADDR(&gw, XXX, XXX, XX, X); //Gateway
+    IP4_ADDR(&netmask, XXX, XXX, XXX, X); //Submascara
 
     netif_set_addr(netif, &ipaddr, &netmask, &gw);
     printf("IP fixo configurado: %s\n", ip4addr_ntoa(&ipaddr));
@@ -52,8 +52,8 @@ int main() {
     stdio_init_all();
     sleep_ms(2000);
 
-    const char *ssid = "Fezao";
-    const char *password = "45954541";
+    const char *ssid = ""; // Login da rede
+    const char *password = ""; //senha da rede
 
     connect_to_wifi(ssid, password);
 
