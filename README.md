@@ -60,6 +60,20 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     ├──galton_board            # Código fonte.
     ├──CMakeLists              # CMakeLists do projeto.
     │──README.md               # Descrições gerais dos projetos
+│──tarefa-freertos-1-fehleme97
+    │── include/                             # Arquivos auxiliares
+    │── FreeRTOS                             # Arquivos da biblioteca da FreeRTOS utilizado no projeto
+    │── doc                                  # Arquivo contendo relatório com respotas sobre o sistema
+    │── tarefa-freertos-1-fehleme97.c        # Código principal com FreeRTOS
+    │── CMakeLists.txt                       # Script de build do projeto
+    │── README.md                            # Este documento
+    │── LICENSE.txt                          # Licença do projeto
+│──sintetizador_de_audio
+    │── inc/ # Bibliotecas personalizadas (ssd1306.h, ssd1306_font.h, etc.)
+    │── sintetizador_de_audio.c # Código fonte principal
+    │── CMakeLists.txt # Configuração de compilação
+    │── README.md # Este documento
+    │── LICENSE.txt # Licença do projeto
 ```
 
 ## 🔗 Projetos
@@ -72,6 +86,9 @@ Abaixo está a lista de projetos desenvolvidos. Cada um possui um diretório esp
 - [Projeto 5 - Pisca Led - Arquitetura Modular](./projetos/led_pisca/)
 - [Projeto 6 - Teste unitário - Sensor embutido de temperatura - Arquitetura Modular](./projetos/teste_unitario_adc)
 - [Projeto 7 - Galton Board](./projetos/galton_board)
+- [Projeto 8 - Tarefas FreeRTOS](./projetos/FreeRTOS_TAREFAS)
+- [Projeto 9 - Sintetizador de Audio](.projetos/sintetizador_de_audio/)
+
 
 
 ## 🛠️ Requisitos e Configuração
