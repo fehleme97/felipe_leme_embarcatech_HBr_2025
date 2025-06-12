@@ -65,7 +65,7 @@ int main() {
         printf("Erro: interface de rede não encontrada!\n");
     }
 
-    mqtt_setup("clienteX", "192.168.15.54", "aluno", "senha123");
+    mqtt_setup("clienteX", "XXX.XXX.XX.XX", "aluno", "senha123");
 
     while (true) {
         cyw43_arch_poll();
