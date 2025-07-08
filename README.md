@@ -90,7 +90,7 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     │── LICENSE.txt          # Licença do projeto
 │──tarefa-freertos-2-felipe_e_vitor
     │── include              # Bibliotecas específicas 
-    │── subscriber_MQTT.c    # Código fonte principal
+    │── tarefa-freertos-2-felipe_e_vitor.c    # Código fonte principal
     │── CMakeLists.txt       # Configuração de compilação
     │── README.md            # Este documento
     │── LICENSE.txt          # Licença do projeto
