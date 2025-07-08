@@ -74,6 +74,20 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     │── CMakeLists.txt # Configuração de compilação
     │── README.md # Este documento
     │── LICENSE.txt # Licença do projeto
+│──comunicacao_MQTT
+    │── inc                  # Bibliotecas específicas (mqtt_comm, lwipopts, etc.)
+    │── src                  # Biblioteca específica .c
+    │── comunicacao_MQTT.c   # Código fonte principal
+    │── CMakeLists.txt       # Configuração de compilação
+    │── README.md            # Este documento
+    │── LICENSE.txt          # Licença do projeto
+│──subscriber_MQTT
+    │── include              # Bibliotecas específicas (mqtt_comm, lwipopts, etc.)
+    │── src                  # Biblioteca específica .c
+    │── subscriber_MQTT.c    # Código fonte principal
+    │── CMakeLists.txt       # Configuração de compilação
+    │── README.md            # Este documento
+    │── LICENSE.txt          # Licença do projeto
 ```
 
 ## 🔗 Projetos
@@ -88,7 +102,7 @@ Abaixo está a lista de projetos desenvolvidos. Cada um possui um diretório esp
 - [Projeto 7 - Galton Board](./projetos/galton_board)
 - [Projeto 8 - Tarefas FreeRTOS](./projetos/FreeRTOS_TAREFAS)
 - [Projeto 9 - Sintetizador de Audio](./projetos/sintetizador_de_audio/)
-- [Projeto 10 - Comunicação MQTT e criptografia](./projetos/sintetizador_de_audio/)
+- [Projeto 10 - Comunicação MQTT e criptografia](./projetos/Comunicacao_MQTT-Publisher-Subscriber/)
 
 
 
