@@ -88,6 +88,12 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     │── CMakeLists.txt       # Configuração de compilação
     │── README.md            # Este documento
     │── LICENSE.txt          # Licença do projeto
+│──tarefa-freertos-2-felipe_e_vitor
+    │── include              # Bibliotecas específicas 
+    │── tarefa-freertos-2-felipe_e_vitor.c    # Código fonte principal
+    │── CMakeLists.txt       # Configuração de compilação
+    │── README.md            # Este documento
+    │── LICENSE.txt          # Licença do projeto
 ```
 
 ## 🔗 Projetos
@@ -103,6 +109,7 @@ Abaixo está a lista de projetos desenvolvidos. Cada um possui um diretório esp
 - [Projeto 8 - Tarefas FreeRTOS](./projetos/FreeRTOS_TAREFAS)
 - [Projeto 9 - Sintetizador de Audio](./projetos/sintetizador_de_audio/)
 - [Projeto 10 - Comunicação MQTT e criptografia](./projetos/Comunicacao_MQTT-Publisher-Subscriber/)
+- [Projeto 11 - Tasks FreeRTOS](./projetos/tarefa-freertos-2-felipe_e_vitor/)
 
 
 
