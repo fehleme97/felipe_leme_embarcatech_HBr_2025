@@ -65,10 +65,11 @@ A velocidade afeta **ambos os motores** quando estão em operação.
 ## 🚀 Como compilar
 
 1. **Clone o projeto e o SDK (caso não tenha):**
-```bash
+```
 git clone -b master https://github.com/raspberrypi/pico-sdk.git
 cd pico-sdk
 git submodule update --init
+```
 
 2. **Configure seu ambiente:**
 ```
@@ -85,6 +86,5 @@ ninja
 
 4. O arquivo .uf2 estará disponível na pasta build/, pronto para gravar na sua Raspberry Pi Pico W via USB.
 
----
 ## 📜 Licença
 MIT License
