@@ -52,7 +52,7 @@ A velocidade afeta **ambos os motores** quando estão em operação.
 
 ## 🖥️ Requisitos
 
-- Raspberry Pi Pico W
+- Raspberry Pi Pico W (BitDogLab)
 - Driver de motor compatível (ex: TB6612FNG, L298N, etc.)
 - Dois motores DC
 - 2 botões físicos
