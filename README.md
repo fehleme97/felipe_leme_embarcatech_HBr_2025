@@ -94,6 +94,11 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     │── CMakeLists.txt       # Configuração de compilação
     │── README.md            # Este documento
     │── LICENSE.txt          # Licença do projeto
+│──motor_drive
+    ├── motor_drive.c   # Código principal do controle de motores
+    ├── CMakeLists.txt  # Script de build para o projeto
+    ├── README.md       # Este arquivo
+    ├── LICENSE.txt     # Licensa do projeto
 ```
 
 ## 🔗 Projetos
@@ -110,7 +115,7 @@ Abaixo está a lista de projetos desenvolvidos. Cada um possui um diretório esp
 - [Projeto 9 - Sintetizador de Audio](./projetos/sintetizador_de_audio/)
 - [Projeto 10 - Comunicação MQTT e criptografia](./projetos/Comunicacao_MQTT-Publisher-Subscriber/)
 - [Projeto 11 - Tasks FreeRTOS](./projetos/tarefa-freertos-2-felipe_e_vitor/)
-
+- [Projeto 12 - Controle - Motor Drive](./projetos/motor_drive)
 
 
 ## 🛠️ Requisitos e Configuração
