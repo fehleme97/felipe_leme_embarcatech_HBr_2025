@@ -99,6 +99,11 @@ AO DECORRER DESSE REPOSITÓRIO SERÁ APRESENTADO PROJETOS QUE FORAM DESENVOLVIDO
     ├── CMakeLists.txt  # Script de build para o projeto
     ├── README.md       # Este arquivo
     ├── LICENSE.txt     # Licensa do projeto
+│──projeto-final_felipe_vitor-main
+    ├── code            # Códigos do projeto
+    ├── documentation   # Documentações do projeto
+    ├── README.md       # Este arquivo
+    ├── LICENSE.txt     # Licensa do projeto
 ```
 
 ## 🔗 Projetos
@@ -116,6 +121,7 @@ Abaixo está a lista de projetos desenvolvidos. Cada um possui um diretório esp
 - [Projeto 10 - Comunicação MQTT e criptografia](./projetos/Comunicacao_MQTT-Publisher-Subscriber/)
 - [Projeto 11 - Tasks FreeRTOS](./projetos/tarefa-freertos-2-felipe_e_vitor/)
 - [Projeto 12 - Controle - Motor Drive](./projetos/motor_drive)
+- [Projeto 13 - Projeto final felipe e vitor - Monitoramento Homecare](./projeto-final-felipe_vitor-main)
 
 
 ## 🛠️ Requisitos e Configuração
